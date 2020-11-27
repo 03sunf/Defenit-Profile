@@ -3,6 +3,30 @@ import Logo from "../Images/Logo.png";
 import "../Styles/App.css";
 
 class Header extends Component {
+  constructor(props) {
+    super(props);
+
+    this.selectall = () => {
+      this.props.select("all");
+    };
+
+    this.selectpwn = () => {
+      this.props.select("pwn");
+    };
+
+    this.selectweb = () => {
+      this.props.select("web");
+    };
+
+    this.selectreversing = () => {
+      this.props.select("reversing");
+    };
+
+    this.selectcrypto = () => {
+      this.props.select("crypto");
+    };
+  }
+
   render() {
     return (
       <div>
@@ -17,32 +41,37 @@ class Header extends Component {
               }}
             />
             <a
-              href="javascript:alert('test')"
+              href="/#/"
               className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
+              onClick={this.selectall.bind(this)}
             >
               All Members
             </a>
             <a
-              href="javascript:alert('test')"
+              href="/#/"
               className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
+              onClick={this.selectpwn.bind(this)}
             >
               Pwnable
             </a>
             <a
-              href="javascript:alert('test')"
+              href="/#/"
               className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
+              onClick={this.selectweb.bind(this)}
             >
               Web
             </a>
             <a
-              href="javascript:alert('test')"
+              href="/#/"
               className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
+              onClick={this.selectreversing.bind(this)}
             >
               Reversing
             </a>
             <a
-              href="javascript:alert('test')"
+              href="/#/"
               className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
+              onClick={this.selectcrypto.bind(this)}
             >
               Crypto
             </a>
@@ -51,12 +80,6 @@ class Header extends Component {
               className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
             >
               Blog
-            </a>
-            <a
-              href="http://defenit.kr"
-              className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
-            >
-              Test1
             </a>
           </div>
         </div>

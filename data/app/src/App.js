@@ -12,10 +12,50 @@ class App extends Component {
     };
   }
 
+  select = (path) => {
+    switch (path) {
+      case "all":
+        this.setState(() => {
+          return { members: Teams.all };
+        });
+        break;
+
+      case "pwn":
+        this.setState(() => {
+          return { members: Teams.pwn };
+        });
+        break;
+
+      case "web":
+        this.setState(() => {
+          return { members: Teams.web };
+        });
+        break;
+
+      case "reversing":
+        this.setState(() => {
+          return { members: Teams.reversing };
+        });
+        break;
+
+      case "crypto":
+        this.setState(() => {
+          return { members: Teams.crypto };
+        });
+        break;
+
+      default:
+        this.setState(() => {
+          return { members: Teams.all };
+        });
+        break;
+    }
+  };
+
   render() {
     return (
       <div className="App">
-        <Header></Header>
+        <Header select={this.select.bind(this)}></Header>
         <Members members={this.state.members}></Members>
       </div>
     );
