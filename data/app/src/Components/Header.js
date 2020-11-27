@@ -58,12 +58,6 @@ class Header extends Component {
             >
               Test1
             </a>
-            <a
-              href="http://defenit.kr"
-              className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
-            >
-              Test2
-            </a>
           </div>
         </div>
       </div>
