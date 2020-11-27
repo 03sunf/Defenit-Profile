@@ -7,52 +7,62 @@ class Header extends Component {
     return (
       <div>
         <div className="md:flex md:-mx-4">
-          <div className="md:w-10/12 xl:w-8/12 md:px-4 text-center md:mx-auto">
+          <div className="md:w-10/12 xl:w-8/12 md:px-4 text-right md:mx-auto">
             <img
               src={Logo}
-              className="logo-animation"
+              className="logo-animation mt-4"
               style={{
-                width: "160",
-                height: "160",
-                radius: "50%",
-                margin: "auto",
+                width: "180",
+                height: "180",
               }}
             />
             <a
               href="javascript:alert('test')"
-              className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block mt-2"
+              className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
             >
               All Members
             </a>
             <a
               href="javascript:alert('test')"
-              className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block mt-8"
+              className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
             >
               Pwnable
             </a>
             <a
               href="javascript:alert('test')"
-              className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block mt-8"
+              className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
             >
               Web
             </a>
             <a
               href="javascript:alert('test')"
-              className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block mt-8"
+              className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
             >
               Reversing
             </a>
             <a
               href="javascript:alert('test')"
-              className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block mt-8"
+              className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
             >
               Crypto
             </a>
             <a
               href="http://defenit.kr"
-              className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block mt-8"
+              className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
             >
               Blog
+            </a>
+            <a
+              href="http://defenit.kr"
+              className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
+            >
+              Test1
+            </a>
+            <a
+              href="http://defenit.kr"
+              className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
+            >
+              Test2
             </a>
           </div>
         </div>
