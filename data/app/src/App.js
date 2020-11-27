@@ -56,7 +56,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header select={this.select.bind(this)}></Header>
-        <Members members={this.state.members}></Members>
+        <Members
+          members={this.state.members}
+          className="duration-500 "
+        ></Members>
       </div>
     );
   }

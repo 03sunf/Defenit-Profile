@@ -1,8 +1,23 @@
+import Sunf from "./Images/Profiles/03sunf.png";
+import Arang from "./Images/Profiles/arang.png";
+import Epist from "./Images/Profiles/epist.png";
+import Jsec from "./Images/Profiles/jsec.png";
+import Mhibio from "./Images/Profiles/mhibio.png";
+import Myria from "./Images/Profiles/myria.png";
+import None from "./Images/Profiles/none.png";
+import Power from "./Images/Profiles/powerbokchi.png";
+import Puel from "./Images/Profiles/puel.png";
+import Racrua from "./Images/Profiles/racrua.png";
+import Tonix from "./Images/Profiles/tonix.png";
+import V4bel from "./Images/Profiles/v4bel.png";
+import Zero from "./Images/Profiles/z3r0d4y5.png";
+import Topcue from "./Images/Profiles/topcue.png";
+
 const all = {
   jsec: {
     name: "JSec 👑",
     jobs: "Pwn, Leader",
-    image: "/profiles/jsec.png",
+    image: Jsec,
     message: "ㅋㅋㅋㅋㅋㅋㅋ고양이가 말하는거 같네",
     homepage: "https://blog.jsec.xyz/",
     facebook: "",
@@ -12,7 +27,7 @@ const all = {
   epist: {
     name: "epist",
     jobs: "Pwn",
-    image: "/profiles/epist.png",
+    image: Epist,
     message: "죠아아아앙🤣",
     homepage: "http://epist.xyz/",
     facebook: "",
@@ -22,7 +37,7 @@ const all = {
   mhibio: {
     name: "mhibio",
     jobs: "Pwn",
-    image: "/profiles/mhibio.png",
+    image: Mhibio,
     message: "ㅋㅋㅋㅋㅋ 이쁘네요!!",
     homepage: "https://mhibio.github.io/",
     facebook: "",
@@ -32,7 +47,7 @@ const all = {
   racrua: {
     name: "Racrua",
     jobs: "Pwn",
-    image: "/profiles/racrua.png",
+    image: Racrua,
     message: "Hello World!",
     homepage: "https://sunrinjuntae.tistory.com/",
     facebook: "",
@@ -42,7 +57,7 @@ const all = {
   puel: {
     name: "puel",
     jobs: "Pwn",
-    image: "/profiles/puel.png",
+    image: Puel,
     message: "Hello World!",
     homepage: "http://blog.hacklog.xyz/",
     facebook: "",
@@ -52,7 +67,7 @@ const all = {
   v4bel: {
     name: "V4bel",
     jobs: "Pwn",
-    image: "/profiles/v4bel.png",
+    image: V4bel,
     message: "Hello World!",
     homepage: "https://kimvabel.tistory.com/",
     facebook: "",
@@ -62,7 +77,7 @@ const all = {
   sunf: {
     name: "03sunf",
     jobs: "Web",
-    image: "/profiles/03sunf.png",
+    image: Sunf,
     message: "Hi there🖐",
     homepage: "https://03sunf.com/",
     facebook: "",
@@ -72,7 +87,7 @@ const all = {
   arang: {
     name: "arang",
     jobs: "Web",
-    image: "/profiles/arang.png",
+    image: Arang,
     message: "Hello World!",
     homepage: "https://ar9ang3.com/",
     facebook: "",
@@ -82,7 +97,7 @@ const all = {
   z3r0d4y5: {
     name: "z3r0d4y5",
     jobs: "Reversing",
-    image: "/profiles/z3r0d4y5.png",
+    image: Zero,
     message: "Hello World!",
     homepage: "https://blog.naver.com/kjug1589",
     facebook: "",
@@ -92,7 +107,7 @@ const all = {
   tonix: {
     name: "tonix",
     jobs: "Reversing",
-    image: "/profiles/tonix.png",
+    image: Tonix,
     message: "Hello World!",
     homepage: "",
     facebook: "",
@@ -102,7 +117,7 @@ const all = {
   powerbokchi: {
     name: "powerbokchi",
     jobs: "Reversing",
-    image: "/profiles/powerbokchi.png",
+    image: Power,
     message: "Hello World!",
     homepage: "https://fir3.tistory.com/",
     facebook: "",
@@ -112,7 +127,7 @@ const all = {
   myria: {
     name: "myria",
     jobs: "Crypto",
-    image: "/profiles/myria.png",
+    image: Myria,
     message: "오 ㅋㅋㅋㅋ",
     homepage: "https://xerxes-break.tistory.com/",
     facebook: "",
@@ -122,7 +137,7 @@ const all = {
   topcue: {
     name: "topcue",
     jobs: "Crypto",
-    image: "/profiles/topcue.png",
+    image: Topcue,
     message: "Hello World!",
     homepage: "https://rond-o.tistory.com/",
     facebook: "",
@@ -132,7 +147,7 @@ const all = {
   none: {
     name: "",
     jobs: "",
-    image: "/profiles/none.png",
+    image: None,
     message: "",
     homepage: "",
     facebook: "",

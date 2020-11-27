@@ -5,12 +5,10 @@ services:
         build: ./docker/node
         container_name: defenit-profile
         volumes:
-            - ./data/node:/app
+            - ./data/app:/app
         environment:
             - NODE_ENV=development
         working_dir: /app
-        ports:
-            - '8080:8080'
         networks:
             defenit-profile:
                 ipv4_address: 172.10.0.3
