@@ -34,6 +34,7 @@ class Header extends Component {
           <div className="md:w-10/12 xl:w-8/12 md:px-4 text-right md:mx-auto">
             <img
               src={Logo}
+              alt="logo"
               className="logo-animation mt-4"
               style={{
                 width: "180",
@@ -41,35 +42,35 @@ class Header extends Component {
               }}
             />
             <a
-              href="/#/"
+              href="# "
               className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
               onClick={this.selectall.bind(this)}
             >
               All Members
             </a>
             <a
-              href="/#/"
+              href="# "
               className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
               onClick={this.selectpwn.bind(this)}
             >
               Pwnable
             </a>
             <a
-              href="/#/"
+              href="# "
               className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
               onClick={this.selectweb.bind(this)}
             >
               Web
             </a>
             <a
-              href="/#/"
+              href="# "
               className="text-gray-900 rounded py-1 px-8 hover:bg-purple-700 hover:text-white transition-colors duration-500 inline-block"
               onClick={this.selectreversing.bind(this)}
             >
               Reversing
             </a>
             <a
-              href="/#/"
+              href="# "
               className="text-gray-900 rounded py-1 px-8 hover:bg-pink-800 hover:text-white transition-colors duration-500 inline-block"
               onClick={this.selectcrypto.bind(this)}
             >

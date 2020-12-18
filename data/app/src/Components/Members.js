@@ -1,14 +1,8 @@
 import React, { Component } from "react";
 import Tooltip from "./Tooltip";
 import "../Styles/App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCamera } from "@fortawesome/free-solid-svg-icons";
 
 class Members extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentWillMount() {
     this.update();
   }
@@ -29,6 +23,7 @@ class Members extends Component {
                   <Tooltip tooltip={group[0].message}>
                     <img
                       src={group[0].image}
+                      alt={`profile-${group[0].name}`}
                       className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
                     />
                   </Tooltip>
@@ -40,24 +35,6 @@ class Members extends Component {
                   {group[0].jobs}
                 </span>
               </div>
-              <a
-                href="#"
-                className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-blue-700 transition-colors duration-300"
-              >
-                <span className="fab fa-linkedin-in"></span>
-              </a>
-              <a
-                href="#"
-                className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-indigo-600 transition-colors duration-300"
-              >
-                <span className="fab fa-behance"></span>
-              </a>
-              <a
-                href="#"
-                className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-pink-500 transition-colors duration-300"
-              >
-                <span className="fab fa-dribbble"></span>
-              </a>
             </div>
             <div className="md:w-1/3 md:px-4 mt-10 md:mt-0">
               <div className="px-5 py-12 text-center">
@@ -65,7 +42,7 @@ class Members extends Component {
                   <Tooltip tooltip={group[1].message}>
                     <img
                       src={group[1].image}
-                      alt="profile image"
+                      alt={`profile-${group[1].name}`}
                       className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                     />
                   </Tooltip>
@@ -78,19 +55,19 @@ class Members extends Component {
                 </span>
               </div>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-blue-700 transition-colors duration-300"
               >
                 <span className="fab fa-linkedin-in"></span>
               </a>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-indigo-600 transition-colors duration-300"
               >
                 <span className="fab fa-behance"></span>
               </a>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-pink-500 transition-colors duration-300"
               >
                 <span className="fab fa-dribbble"></span>
@@ -102,7 +79,7 @@ class Members extends Component {
                   <Tooltip tooltip={group[2].message}>
                     <img
                       src={group[2].image}
-                      alt="profile image"
+                      alt={`profile-${group[2].name}`}
                       className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                     />
                   </Tooltip>
@@ -115,19 +92,19 @@ class Members extends Component {
                 </span>
               </div>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-blue-700 transition-colors duration-300"
               >
                 <span className="fab fa-linkedin-in"></span>
               </a>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-indigo-600 transition-colors duration-300"
               >
                 <span className="fab fa-behance"></span>
               </a>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-pink-500 transition-colors duration-300"
               >
                 <span className="fab fa-dribbble"></span>
@@ -139,7 +116,7 @@ class Members extends Component {
                   <Tooltip tooltip={group[3].message}>
                     <img
                       src={group[3].image}
-                      alt="profile image"
+                      alt={`profile-${group[3].name}`}
                       className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                     />
                   </Tooltip>
@@ -152,19 +129,19 @@ class Members extends Component {
                 </span>
               </div>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-blue-700 transition-colors duration-300"
               >
                 <span className="fab fa-linkedin-in"></span>
               </a>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-indigo-600 transition-colors duration-300"
               >
                 <span className="fab fa-behance"></span>
               </a>
               <a
-                href="#"
+                href="# "
                 className="text-xl text-gray-600 text-center py-3 flex-grow hover:text-pink-500 transition-colors duration-300"
               >
                 <span className="fab fa-dribbble"></span>
