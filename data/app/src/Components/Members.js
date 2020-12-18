@@ -3,7 +3,7 @@ import Tooltip from "./Tooltip";
 import "../Styles/App.css";
 
 class Members extends Component {
-  componentWillMount() {
+  componentDidMount() {
     this.update();
   }
 
@@ -13,7 +13,6 @@ class Members extends Component {
 
   render() {
     const list = this.props.members.map((group, key) => {
-      console.log(group);
       return (
         <div className="container mx-auto px-4" key={key}>
           <div className="md:flex md:-mx-4 md:mt-12 md:mb-6 team-list">

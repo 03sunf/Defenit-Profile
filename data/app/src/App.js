@@ -7,6 +7,19 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+    // Initializing, remove warn and error.
+    console.log(
+      "%cDefenit",
+      "color: #8041D9; font-size: 77px; font-weight: 900;"
+    );
+
+    console.log(
+      "%cWhat are you going to do with this?",
+      "font-size: 15px; font-weight: 100;"
+    );
+
+    console = () => {};
+
     this.state = {
       members: Teams.all,
     };
