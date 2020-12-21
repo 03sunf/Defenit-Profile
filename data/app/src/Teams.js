@@ -128,7 +128,7 @@ const all = {
     name: "myria",
     jobs: "Crypto",
     image: Myria,
-    message: "오 ㅋㅋㅋㅋ",
+    message: "저 대신 암호학하실분 구합니다 😂",
     homepage: "https://xerxes-break.tistory.com/",
     facebook: "",
     twitter: "",
